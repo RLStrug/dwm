@@ -19,7 +19,7 @@ options:
 
 ${OBJ}: config.h config.mk
 
-config.h:
+config.h: config.def.h
 	cp $< $@
 
 dwm: ${OBJ}
