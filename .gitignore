@@ -1,5 +1,5 @@
 dwm
-config.def.h
+config.h
 
 # Prerequisites
 *.d
